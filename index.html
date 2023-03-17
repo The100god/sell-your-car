@@ -8,6 +8,7 @@
     <title>Sell Your Car</title>
     <!-- font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
     <!--custom css-->
     <link rel="stylesheet" href="style.css">
@@ -126,10 +127,10 @@
         <span>vehicles</span>
       </h1>
 
-      <div class="vehicles-slider">
-        <div class="wrapper">
-          <div class="box">
-            <img src="image\vehicle-1.png" alt="">
+      <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image\vehicle-1.png" alt="" height="200rem">
             <div class="content">
               <h3>new model</h3>
               <div class="price">
@@ -152,8 +153,8 @@
             </div>
           </div>
 
-          <div class="box">
-            <img src="image\vehicle-2.png" alt="">
+          <div class="swiper-slide box">
+            <img src="image\vehicle-2.png" height="200rem">
             <div class="content">
               <h3>new model</h3>
               <div class="price">
@@ -176,8 +177,8 @@
             </div>
           </div>
 
-          <div class="box">
-            <img src="image\vehicle-3.png" alt="">
+          <div class="swiper-slide box">
+            <img src="image\vehicle-3.png" alt="" height="200rem">
             <div class="content">
               <h3>new model</h3>
               <div class="price">
@@ -200,8 +201,8 @@
             </div>
           </div>
 
-          <div class="box">
-            <img src="image\vehicle-4.png" alt="">
+          <div class="swiper-slide box">
+            <img src="image\vehicle-4.png" alt="" height="200rem">
             <div class="content">
               <h3>new model</h3>
               <div class="price">
@@ -224,8 +225,8 @@
             </div>
           </div>
 
-          <div class="box">
-            <img src="image\vehicle-5.png" alt="">
+          <div class="swiper-slide box">
+            <img src="image\vehicle-5.png" alt="" height="200rem">
             <div class="content">
               <h3>new model</h3>
               <div class="price">
@@ -248,8 +249,8 @@
             </div>
           </div>
 
-          <div class="box">
-            <img src="image\vehicle-6.png" alt="">
+          <div class="swiper-slide box">
+            <img src="image\vehicle-6.png" alt="" height="200rem">
             <div class="content">
               <h3>new model</h3>
               <div class="price">
@@ -273,6 +274,7 @@
           </div>
 
         </div>
+        <div class="swiper-pagination"></div>
 
       </div>
 
@@ -280,7 +282,131 @@
 
     <!--vehicles section ends -->
 
+    <!--services section starts-->
+    <section class="services" id="services">
+      <h1 class="heading">
+        our
+        <span>services</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>car selling</h3>
+          <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-tools"></i>
+          <h3>parts repair</h3>
+          <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car-crash"></i>
+          <h3>car insurance</h3>
+          <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car-battery"></i>
+          <h3>battery replacement</h3>
+          <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-gas-pump"></i>
+          <h3>oil change</h3>
+          <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+      </div>
+
+    </section>
+    <!--services section ends-->
+
+    <!--review section starts-->
+
+    <section class="reviews" id="reviews">
+
+      <h1 class="heading">
+        client's
+        <span>review</span>
+      </h1>
+
+      <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide box">
+            <img src="image/pic-1.png" alt="">
+            <div class="content">
+              <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+            </div>
+            <h3>ram</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+
+            </div>
+
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-2.png" alt="">
+            <div class="content">
+              <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+            </div>
+            <h3>ram</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+
+            </div>
+
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-3.png" alt="">
+            <div class="content">
+              <p>Lorem Ipsum comes from a latin text written in 45BC by Roman statesman, lawyer, scholar, and philosopher, Marcus Tullius Cicero.</p>
+            </div>
+            <h3>ram</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+      </div>
+
+    </section>
+
+    <!--review section ends-->
+
     <!-- custom js link-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>
